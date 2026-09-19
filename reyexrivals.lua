@@ -195,7 +195,7 @@ local Config = {
     Freecam = false,
     FreecamSpeed = 40,
 
-    MenuKey = Enum.KeyCode.RightControl,
+    MenuKey = Enum.KeyCode.Q,
     MobileToggle = false
 }
 
@@ -2588,7 +2588,7 @@ local ProfileSystem = {
             InstantEquip = false,
             LoadoutOnlySelected = false,
             MapPriority = "Arena, Onyx, Crossroads",
-            MenuKey = Enum.KeyCode.RightControl,
+            MenuKey = Enum.KeyCode.Q,
             MinGroupRank = 200,
             ModDetector = true,
             ModFriendList = "name1, name2",
@@ -2710,7 +2710,7 @@ local ProfileSystem = {
             InstantEquip = false,
             LoadoutOnlySelected = false,
             MapPriority = "Arena, Onyx, Crossroads",
-            MenuKey = Enum.KeyCode.RightControl,
+            MenuKey = Enum.KeyCode.Q,
             MinGroupRank = 200,
             ModDetector = true,
             ModFriendList = "name1, name2",
@@ -3000,7 +3000,7 @@ local kbMenu = Instance.new("TextLabel")
 kbMenu.Size = UDim2.new(1, 0, 0, 16)
 kbMenu.BackgroundTransparency = 1
 kbMenu.Font = MainFont
-kbMenu.Text = "Menu Toggle: RightControl"
+kbMenu.Text = "Menu Toggle: Q"
 kbMenu.TextColor3 = Theme.TextWhite
 kbMenu.TextSize = 12
 kbMenu.TextXAlignment = Enum.TextXAlignment.Left
